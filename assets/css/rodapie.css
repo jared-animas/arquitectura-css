@@ -1,0 +1,33 @@
+.rodapie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 0) {
+    .rodapie {
+        padding-top: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie {
+        padding-top: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .rodapie {
+        padding-top: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: row;
+    }
+}
